@@ -1,1 +1,79 @@
+.container {
+    text-align: center;
+}
 
+.container img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.contactbtn {
+    background-color: #1E88E5; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+.contactbtn:hover {
+    background-color:#539deb; /* Darker blue on hover */
+}
+.Utility {
+    justify-content: center;
+    width: 100%;
+    min-width: 100vw;
+    background-color: rgb(224, 216, 216);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.2); 
+}
+.Utility.container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+  
+.support
+{
+    text-align: center;
+    padding-left: 45%;
+}
+.heading
+{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size:64px;
+    font-weight: 500; 
+    color: #121838; 
+    line-height: 1.2;
+
+}
+.subheading
+{
+    margin: bottom 0;
+    color:rgb(57, 57, 159);
+    font-size: 32px;
+    text-align: center;
+}
+.belowimg
+{
+    justify-content: center;
+    margin: bottom 0;
+    color:rgb(57, 57, 159);
+    font-size: 18px;
+    
+}
+.flight
+{
+    margin-top: -25px;
+    justify-content: center;
+    padding-left: 5%;
+}
+
+.center
+{
+    justify-content: center;
+    font-family: 'Poppins;;
+    font: size 64px;
+}
