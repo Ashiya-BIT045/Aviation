@@ -1,0 +1,111 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-weight: 500;
+}
+.card{
+    height:200px;
+    width:90%;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    border-radius:8px;
+    margin:15px 30px 15px 30px;
+    
+}
+#front-img{
+    height:850px;
+    width:100%;
+}
+.card-grid{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    height:150px;
+    width:150px;
+    border-radius: 8px;
+    margin:30px;
+    
+}
+.card-txt{
+   padding: 0px 0px 0px 30px;
+}
+.view-button{
+    padding:5px 70px 5px 70px;
+    color:grey;
+    background-color: white;
+    border:0.5px solid grey;
+    border-radius:3px;
+}
+
+.view-button:hover {
+    cursor: pointer;
+    color:black;
+    background-color: whitesmoke;
+    
+}
+.reg-button:hover {
+    cursor: pointer;
+    background-color: #3795e7;
+    
+}
+.reg-button{
+    padding:5px 83px 5px 83px;
+    color:white;
+    background-color: #1E88E5;
+    border:1px solid black;
+    border-radius:3px;
+}
+
+@media(max-width:990px){
+    .card{
+        height:250px;
+        width:90%;
+    }
+    button{
+        margin:3px;
+    }
+    
+}
+@media(max-width:900px)
+{
+    #front-img{
+        height:850px;
+    }
+}
+@media(max-width:800px)
+{
+    #front-img{
+        height:700px;
+    }
+}
+@media(max-width:685px)
+{
+    .card{
+        height:300px;
+    }
+    #front-img{
+        height:600px;
+    }
+}
+@media(max-width:565px)
+{
+    .card{
+        height:350px;
+    }
+    #front-img{
+        height:500px;
+    }
+}
+@media(max-width:545px)
+{
+    .card{
+        height:400px;
+    }
+}
