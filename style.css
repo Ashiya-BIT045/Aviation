@@ -15,11 +15,17 @@
     padding: 10px 20px; 
     border-radius: 20px; 
     text-decoration: none; 
-    font-weight: bold; 
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 .contactbtn:hover {
-    background-color:#539deb; /* Darker blue on hover */
+    background-color: #539deb;
+    transform: scale(1.02);
+    transition: 0.3s ease;
 }
+
 .Utility {
     justify-content: center;
     width: 100%;
@@ -27,89 +33,147 @@
     background-color: rgb(224, 216, 216);
     border-bottom: 4px solid rgba(0, 0, 0, 0.2); 
 }
-.Utility.container-fluid
-{
+
+.Utility.container-fluid {
     padding-left: 0;
     padding-right: 0;
 }
 
-  
-.support
-{
+.Utility .support {
+    margin: 0 auto;
     text-align: center;
-    padding-left: 45%;
 }
-.heading
-{
+
+.heading {
     text-align: center;
     font-family: 'Poppins';
-    font-size:64px;
+    font-size: 64px;
     font-weight: 500; 
     color: #121838; 
     line-height: 1.2;
-
 }
-.subheading
-{
-    margin: bottom 0;
-    color:rgb(57, 57, 159);
+
+.subheading {
+    margin-bottom: 0;
+    color: rgb(57, 57, 159);
     font-size: 32px;
     text-align: center;
 }
-.belowimg
-{
-    justify-content: center;
-    margin: bottom 0;
-    color:rgb(57, 57, 159);
+
+.belowimg {
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(57, 57, 159);
     font-size: 18px;
-    
 }
-.flight
-{
-    margin-top: -25px;
+
+.flight {
+    text-align: center;
+}
+
+.center {
     justify-content: center;
-    padding-left: 5%;
+    font-size: 64px;
 }
-.center
-{
-    justify-content: center;
-    font-family: 'Poppins';
-    font: size 64px;
-}
-.skyrock{
+
+.skyrock {
     font-weight: bold;
-    color:#6c757d;
+    color: #6c757d;
 }
-.custom-list{
+
+.custom-list {
     padding-left: 20px; 
     list-style-position: inside;
     font-size: 25px;
+    text-align: left;
 }
-.pfc{
-    padding:20px;
-}
-.cp{
-    padding-right:12%;
-    padding-top:20px ;
-}
-.pg{
-   padding-top: 20px;
-   margin-top:37px;
-   margin-left: 20px;
-}
-.pfc_2{
-  padding-top: 30px;
-  padding-left: 10%;
-  
-}
-.pc{
-    padding-left: 35%;
+
+.pc {
+    padding-left: 30%;
     padding-right: 0%;
     padding-top: 20px;
 }
-.container-bg{
-  background-image: url(images/MacBook\ Pro\ 16_\ -\ 1.svg); 
-  background-size: cover; 
-  background-position: right; 
-  background-repeat: no-repeat;
+
+.container-bg {
+    background-image: url(images/MacBook\ Pro\ 16_\ -\ 1.svg); 
+    background-size: cover; 
+    background-position: right; 
+    background-repeat: no-repeat;
 }
+
+.section-image {
+    max-width: 85%;
+    height: auto;
+    border: none;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .section-label {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .benefits-list {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .section-title {
+      font-size: 1.6rem;
+    }
+  
+    .benefits-list {
+      font-size: 1rem;
+    }
+  
+    .section-image {
+      max-width: 100%;
+    }
+  
+   
+    .row.align-items-center {
+      text-align: center;
+  }
+
+  .row.align-items-center img {
+      margin-bottom: 20px;
+  }
+
+  
+  }
+  
+.image-left {
+    text-align: left;
+  }
+  .image-left .section-image {
+    margin-left: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
